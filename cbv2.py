@@ -15,9 +15,9 @@ tra = []
 for k, row in enumerate(data):
     #print(k)
     tra.append(row['dialog'][0]['text'])
-for k, row in enumerate(data2):
-    #print(k)
-    tra.append(row['dialog'][0]['text'])
+#for k, row in enumerate(data2):
+#    #print(k)
+#    tra.append(row['dialog'][0]['text'])
     
     
 
