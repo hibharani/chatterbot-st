@@ -9,15 +9,15 @@ def get_text():
     return input_text 
 
 data = json.loads(open(r'data_tolokers.json','r').read())#change path accordingly
-#data2 = json.loads(open(r'C:\Users\Jojo\Desktop\projects\chatbot\chatbot\chatbot\sw.json','r').read())#change path accordingly
+data2 = json.loads(open(r'summer_wild_evaluation_dialogs.json','r').read())#change path accordingly
 
 tra = []
 for k, row in enumerate(data):
     #print(k)
     tra.append(row['dialog'][0]['text'])
-#for k, row in enumerate(data2):
-#    #print(k)
-#    tra.append(row['dialog'][0]['text'])
+for k, row in enumerate(data2):
+    #print(k)
+    tra.append(row['dialog'][0]['text'])
     
     
 
