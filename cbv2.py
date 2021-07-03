@@ -8,7 +8,7 @@ def get_text():
     input_text = st.text_input("You: ","So, what's in your mind")
     return input_text 
 
-#data = json.loads(open(r'C:\Users\Jojo\Desktop\projects\chatbot\chatbot\chatbot\data_tolokers.json','r').read())#change path accordingly
+data = json.loads(open(r'data_tolokers.json','r').read())#change path accordingly
 #data2 = json.loads(open(r'C:\Users\Jojo\Desktop\projects\chatbot\chatbot\chatbot\sw.json','r').read())#change path accordingly
 
 tra = []
